@@ -3,11 +3,6 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<meta name="description" content="penguine animation using css">
-	<meta name="author" content="John Doe">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title>penguine</title>
 
 	<style type="text/css">
@@ -71,14 +66,6 @@
 			border-radius: 70% 70% 60% 60%;
 		}
 
-		.right-cheek {
-			top: 15%;
-			left: 35%;
-			background: white;
-			width: 60%;
-			height: 70%;
-			border-radius: 70% 70% 60% 60%;
-		}
 
 		.left-cheek {
 			top: 15%;
@@ -139,7 +126,7 @@
 		}
 
 		.sparkle {
-			top: 25%;
+			top: 5%;
 			left: 15%;
 			background: white;
 			width: 35%;
@@ -188,34 +175,38 @@
 			background: #c6faf1;
 		}
 
-		.penguin * {
+		.penguine *{
 			position: absolute;
 		}
 	</style>
 </head>
 
-<body>
+	<body>
 
-	<div class="penguine">
-		<div class="penguine-bottom">
-			<div class="right-hand"></div>
-			<div class="left-hand"></div>
-			<div class="right-leg"></div>
-			<div class="left-leg"></div>
-		</div>
+		<div class="penguine">
+			<div class="penguine-bottom">
+				<div class="right-hand"></div>
+				<div class="left-hand"></div>
+				<div class="right-feet"></div>
+				<div class="left-feet"></div>
+			</div>
 
-		<div class="penguine-top">
-			<div class="right-cheek"></div>
-			<div class="left-cheek"></div>
-			<div class="belly"></div>
-			<div class="right-eye"></div>
-			<div class="left-eye"></div>
-			<div class="blush-right"></div>
-			<div class="blush-left"></div>
-			<div class="beak-top"></div>
-			<div class="beak-bottom"></div>
+			<div class="penguine-top">
+				<div class="right-cheek"></div>
+				<div class="left-cheek"></div>
+				<div class="belly"></div>
+				<div class="right-eye">
+					<div class="sparkle"></div>
+				</div>
+				<div class="left-eye">
+					<div class="sparkle"></div>
+				</div>
+				<div class="blush-right"></div>
+				<div class="blush-left"></div>
+				<div class="beak-top"></div>
+				<div class="beak-bottom"></div>
+			</div>
 		</div>
-	</div>
-</body>
+	</body>
 
 </html>
